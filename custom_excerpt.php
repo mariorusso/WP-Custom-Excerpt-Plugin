@@ -7,3 +7,9 @@
 * Author URI: http://www.russomario.com
 */
 
+function custom_excerpt($excerpt) {
+	
+}
+
+add_filter('the_excerpt', 'custom_excerpt');
+
